@@ -146,10 +146,9 @@ the Boolean expression is no longer True.
 
 ```python
 i = 0
-while True:
+while i < 3:
     i = i + 1
     print('hey', i)
-    if i == 3: break
 ```
 
 The loop doesn't have to start at 0, increment by 1, or end before 5. The
