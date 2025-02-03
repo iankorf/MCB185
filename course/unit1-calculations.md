@@ -748,6 +748,8 @@ Write functions that convert quality value symbols into error rates and
 vice-versa. The `ord()` function returns the ASCII value of a letter. The
 `chr()` function turns an ASCII value into a letter.
 
+See https://en.wikipedia.org/wiki/FASTQ_format
+
 Demonstrate the functions work by calling them several times. Edge cases should
 return `None`.
 
