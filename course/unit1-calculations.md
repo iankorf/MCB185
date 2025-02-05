@@ -658,10 +658,10 @@ robotic about it, as sometimes it's clearer not to use spaces.
 (3) Use vertical spacing (blank lines) to separate logic, just as you would use
 paragraph structure in English.
 
-(4) Use tabs for left side indentation. The use of spaces for indentation flags
-your code as potential **cheating**.
+(4) Use tabs for left side indentation.
 
-(5) Don't indent simple if-elif-else type constructs.
+(5) Don't indent simple if-elif-else type constructs. If you want things to
+line up neatly, use spaces.
 
 (6) There is no space between a function and its opening parentheses. Note that
 `return` is a keyword, not a function, so it doesn't have parentheses.
