@@ -348,7 +348,7 @@ returns `True`.
 
 ```python
 def is_prime(n):
-    for den in range(2, n//2):
+    for den in range(2, n//2 +1):
         if n % den == 0: return False
     return True
 ```
