@@ -501,7 +501,9 @@ may also have disadvantage, for example another "friend" pushes you from
 behind, causing you to stumble forward. In this case, you have "disadvantage"
 and must take the lower of two d20 rolls.
 
-Write a program that simulates saving throws against DCs of 5, 10, and 15.
+Write a program that simulates saving throws against DCs of 5, 10, and 15. Make
+a table showing the probability of success normally, with advantage, and with
+disadvantage.
 
 ### 25deathsaves.py ###
 
