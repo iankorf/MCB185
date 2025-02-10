@@ -644,7 +644,7 @@ can be zipped in parallel.
 
 All of the code examples so far have included the data in the program. But no
 programs are like that. For example, each time you want to run `grep` you don't
-have to re-write the `grep` program with different strings. `grp` reads the
+have to re-write the `grep` program with different strings. `grep` reads the
 command line and operates on the various values. Your programs can do the same
 thing.
 
