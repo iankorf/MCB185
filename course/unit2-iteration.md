@@ -155,7 +155,7 @@ The loop doesn't have to start at 0, increment by 1, or end before 5. The
 modified code below starts at 1, ends before 10, and skips by 3s.
 
 ```python
-i = 0
+i = 1
 while i < 10:
     print(i)
     i = i + 3
