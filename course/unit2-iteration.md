@@ -199,6 +199,13 @@ for i in range(0, 5): print(i)
 for i in range(0, 5, 1): print(i)
 ```
 
+This is related, but counts backwards. It starts at 4, ends before getting to
+-1, and steps by -1 (i.e. backwards one at a time).
+
+```python
+for i in range(4, -1, -1): print(i)
+```
+
 ### for item in container ###
 
 `for` loops can be used to iterate over items in a container. We will see much
