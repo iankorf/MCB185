@@ -831,7 +831,7 @@ It turns out to be very easy to program loops that make these comparisons. But
 it can be a real head-scratcher until you see the answer. Let's just skip to
 the answer.
 
-```
+```python
 for i in range(0, len(list)):
 	for j in range(X, len(list)):
 ```

@@ -360,6 +360,9 @@ def is_prime(n):
     return True
 ```
 
+Note that this implementation doesn't check bounds. It returns `True` for 1, 0,
+and even -1. These checks are omitted to make this more readable.
+
 ### nilakantha() ###
 
 The trick to solving this problem is getting the loop to switch back and forth
