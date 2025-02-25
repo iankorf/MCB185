@@ -155,7 +155,7 @@ The loop doesn't have to start at 0, increment by 1, or end before 5. The
 modified code below starts at 1, ends before 10, and skips by 3s.
 
 ```python
-i = 0
+i = 1
 while i < 10:
     print(i)
     i = i + 3
@@ -197,6 +197,13 @@ All of these constructions do the exact same thing.
 for i in range(5): print(i)
 for i in range(0, 5): print(i)
 for i in range(0, 5, 1): print(i)
+```
+
+This is related, but counts backwards. It starts at 4, ends before getting to
+-1, and steps by -1 (i.e. backwards one at a time).
+
+```python
+for i in range(4, -1, -1): print(i)
 ```
 
 ### for item in container ###
@@ -348,10 +355,13 @@ returns `True`.
 
 ```python
 def is_prime(n):
-    for den in range(2, n//2):
+    for den in range(2, n//2 +1):
         if n % den == 0: return False
     return True
 ```
+
+Note that this implementation doesn't check bounds. It returns `True` for 1, 0,
+and even -1. These checks are omitted to make this more readable.
 
 ### nilakantha() ###
 
@@ -501,7 +511,9 @@ may also have disadvantage, for example another "friend" pushes you from
 behind, causing you to stumble forward. In this case, you have "disadvantage"
 and must take the lower of two d20 rolls.
 
-Write a program that simulates saving throws against DCs of 5, 10, and 15.
+Write a program that simulates saving throws against DCs of 5, 10, and 15. Make
+a table showing the probability of success normally, with advantage, and with
+disadvantage.
 
 ### 25deathsaves.py ###
 

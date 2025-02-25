@@ -900,7 +900,9 @@ Binary files use all values from 0-255 (00-FF). Really, all files are binary,
 but text files are a special case of binary files that are meant to be human
 readable.
 
-Here is the table of all the simple characters without special meanings.
+Here is the table of all the simple characters without special meanings. Note
+that all letters less than 32 are invisible. 32 is a normal space (i.e. when
+you hit the spacebar, the ASCII character is 32).
 
 
 | Dec | Hex | C | Dec | Hex | C | Dec | Hex | C |

@@ -663,6 +663,15 @@ program takes 2 arguments: the window size (1000) and a soft-linked fasta file
 time python3 44skew.py ecoli.fa.gz 1000
 ```
 
+If you get an error message or you can't figure out what `ecoli.fa.gz` is,
+examine the previous paragaraph, which explains that `ecoli.fa.gz` is a
+soft-linked file. To what file? The E.coli genome in the `MCB185/data`
+directory. Do something like this from your homework directory.
+
+```
+ln -s ~/Code/MCB185/data/GCF_000005845.2_ASM584v2_genomic.fna.gz ./ecoli.fa.gz
+```
+
 Here's what I get for the time difference between the slow and fast algorithms.
 The slow algorithm scales linearly (with a minor Y offset). The fast algorithm
 is not really affected by window size.

@@ -644,7 +644,7 @@ can be zipped in parallel.
 
 All of the code examples so far have included the data in the program. But no
 programs are like that. For example, each time you want to run `grep` you don't
-have to re-write the `grep` program with different strings. `grp` reads the
+have to re-write the `grep` program with different strings. `grep` reads the
 command line and operates on the various values. Your programs can do the same
 thing.
 
@@ -831,7 +831,7 @@ It turns out to be very easy to program loops that make these comparisons. But
 it can be a real head-scratcher until you see the answer. Let's just skip to
 the answer.
 
-```
+```python
 for i in range(0, len(list)):
 	for j in range(X, len(list)):
 ```
