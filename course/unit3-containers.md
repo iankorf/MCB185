@@ -852,6 +852,7 @@ of pairwise comparisons.
 + `32stats.py`
 + `33birthday.py`
 + `34birthday.py`
++ `35scoringmatrix.py`
 
 ### 32stats.py ###
 
