@@ -922,7 +922,7 @@ out in a matrix, that would look like this:
 A +1 -1 -1 -1
 C -1 +1 -1 -1
 G -1 -1 +1 -1
-T -1 -1 -1 -1
+T -1 -1 -1 +1
 ```
 
 Write a program that can print out a match-mismatch scoring matrix. The
