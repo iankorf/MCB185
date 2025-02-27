@@ -278,7 +278,7 @@ problem is to create individual variables for each nucleotide and a stack of
 if-elif-else statements that assigns them individually. Replace lines 7-10
 above with the following:
 
-```
+```python
 7	A = 0
 8	C = 0
 9	G = 0
