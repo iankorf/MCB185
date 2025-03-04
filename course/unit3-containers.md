@@ -713,7 +713,7 @@ list of probabilities on the command line.
 5   for arg in sys.argv[1:]:
 6       f = float(arg)
 7       if f <= 0 or f >= 1: sys.exit('error: not a probability')
-8       probs.append(float(arg))
+8       probs.append(f)
 9
 10  total = 0
 11  for p in probs: total += p
