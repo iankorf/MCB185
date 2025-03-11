@@ -127,11 +127,12 @@ find/install a Terminal with a Unix-compatible CLI.
     + Mac
     + Windows + Cygwin
     + Windows + Virtual Machine
++ Maybe
+    + Windows Subsystem for Linux
     + Install Linux on spare PC
-+ Not Recommended
++ Maybe Not
     + Chromebook
     + Git bash
-    + Windows Subsystem for Linux
     + Raspberry Pi
     + Remote login
 
@@ -176,6 +177,13 @@ git
 
 If this produces an error message, you didn't install Cygwin properly. Stop and
 get help right now. Do not move on thinking you will get back to this later.
+
+If you find that the cygwin terminal takes a long time to launch or that
+commands seem to take forever to run, it's probably because your Windows
+Defender is getting in the way. You can turn that off (recommended) or run
+`cygserver-config` under Windows administrative user. This isn't as simple as
+it sounds though because you may need to change your `PATH` in cygwin
+temporarily.
 
 ### VM on Windows ###
 
@@ -237,6 +245,19 @@ sudo sh VBoxLinuxAdditions.run
 
 If you have any problems or questions, seek help from the instructor or TA.
 
+### Windows Subsystem for Linux ###
+
+The official Microsoft solution for running Linux is called the Windows
+Subsystem for Linux (WSL). The upside of WSL is that it is the official
+Microsoft product. Most of the time it works great. It uses less resources than
+a VM, so your actual and virtual computers will be faster with WSL. The
+downside of WSL is the Windows and Linux filesystems do not play well together.
+When Windows programs save files in the Linux filesystem, some permissions may
+get reset (meaning you can't read or write files until until you `chmod`). It
+can be very annoying. As WSL matures, it may become the best way to run Linux
+on Windows. From WSL, your Windows C drive is conveniently mounted at `/mnt/c`.
+Finding your Linux filesystem root from Windows is not so easy.
+
 ### Install Linux ###
 
 There are a variety of ways you can install Linux natively on your PC. You can
@@ -268,19 +289,6 @@ command line interface. It can be used for more tasks, such as Python
 programming. Some programming languages are built-in (e.g. Perl) but Python is
 not by default. Git Bash feels very similar to Cygwin but software installation
 is slightly more complex.
-
-### Windows Subsystem for Linux ###
-
-The official Microsoft solution for running Linux is called the Windows
-Subsystem for Linux (WSL). The upside of WSL is that it is the official
-Microsoft product. Most of the time it works great. It uses less resources than
-a VM, so your actual and virtual computers will be faster with WSL. The
-downside of WSL is the Windows and Linux filesystems do not play well together.
-When Windows programs save files in the Linux filesystem, some permissions may
-get reset (meaning you can't read or write files until until you `chmod`). It
-can be very annoying. As WSL matures, it may become the best way to run Linux
-on Windows. From WSL, your Windows C drive is conveniently mounted at `/mnt/c`.
-Finding your Linux filesystem root from Windows is not so easy.
 
 ### Raspberry Pi ###
 
