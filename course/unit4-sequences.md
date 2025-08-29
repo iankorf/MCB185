@@ -560,7 +560,7 @@ Line 2 sets the step size. For translation, this is 3. That is, each codon is 3
 nt apart. In many windowing algorithms, the step size is 1.
 
 Line 3 moves the window along the sequence. The example shows the 3 argument
-version of `range()`. The third argument `len(seq) -w +1` is critical to
+version of `range()`. The second argument `len(seq) -w +1` is critical to
 prevent the window from running off the end of the sequence.
 
 Line 4 creates a subsequence as a slice using the current offset `i` and the
