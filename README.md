@@ -25,4 +25,4 @@ There are 3 midterm exams. You will not have access to your computer or notes. M
 
 The final exam is optional. The final exam replaces the lowest midterm exam score even if the final is lower. There is therefore some risk that taking the final exam will reduce your final grade.
 
-Your GitHub mcb185_homework repo is worth up to 5 points. To get maximum credit, the repo should be organized, the homework programs should be complete, and you should have regular commits. Checking in a bunch of stuff at the last minute will earn a maximum of 1 point.
+Your GitHub mcb185_homework repo is worth up to 5 points. To get maximum credit, the repo should be organized, the homework programs should be complete, and you should have regular commits. Checking in a bunch of stuff at the last minute will earn a maximum of 1 point. There are a lot of homework problems. Do you have to do them all? No, but they will help you understand the material and do well on the exams.
