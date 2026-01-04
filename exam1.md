@@ -78,16 +78,20 @@ pwd
 
 10. What programs can you use to view a text file?
 
-11. Write a command line the searches a file for the word "frog" and saves all
+11. Describe "tab completion".
+
+12. What does hitting the up arrow do when in the Linux CLI?
+
+13. Write a command line the searches a file for the word "frog" and saves all
 lines with "frog" to a file called "pond".
 
-12. Write a command that moves all PNG files from your Downloads folder to your
+14. Write a command that moves all PNG files from your Downloads folder to your
 Documents folder.
 
-13. Write a command line that extracts the third column from a TSV file and
+15. Write a command line that extracts the third column from a TSV file and
 counts the occurences of each word.
 
-14. How could you make is so that every time you type `ls` the shell actually
+16. How could you make is so that every time you type `ls` the shell actually
 performs `ls -F` instead?
 
 
