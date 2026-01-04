@@ -1,13 +1,16 @@
 MCB185: Programming for Biologists
 ==================================
 
-Organization
+The course materials are in the `course` directory. Start with
+`course/unit1.1.md`.
+
+## Organization ##
 
 - Unit 1: Getting Started (4 weeks)
 - Unit 2: Learning to Program (3 weeks)
 - Unit 3: Practical Programming (3 weeks)
 
-Grading
+## Grading ##
 
 - Good To Go: 10 points
 - Warmup Exercises: 30 points
