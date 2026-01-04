@@ -5,7 +5,33 @@ Exam #3 Questions
 - Some exam questions will be variations of those below
 - Some exam questions may be completely new
 
-## 2D Loops
+Rules:
+
+- No imports are allowed unless explicitly stated
+
+Variable naming conventions:
+
+- `x` by itself can represent anything, but often a float
+- `i`, `j`, `k`, and loop variables
+- `n` and `m` are integers
+- `a`, `b`, and `c` are numbers (sometimes ints, sometimes floats)
+- `x`, `y`, and `z` are floats and often Cartesian coordinates
+- `x1`, `y1` and `x2`, `y2` are Cartesian pairs
+- `p` and `q` are probabilities
+- `s` is a string, as are `s1` and `s2`
+- `c` by itself is a character (e.g. `for c in s`)
+- `strings` is a list of strings as are `strings1` and `strings2`
+- `X` is a list of numbers, as are `X1` and `X2`
+- `P` and `Q` are probability distributions (histograms)
+- `nt` is a character representing a nucleotide
+- `dna` is a string of nucleotide symbols
+- `aa` is a character representing an amino acid
+- `pro` is a string of amino acids
+- `seq` is a string of nucleotides or amino acids
+- `seqs` is a list of sequences
+- `file` is a named file path
+- `fp` is a file pointer
+
 
 41. Write a program `print_matrix.py <alphabet> <plus> <minus>` that displays a
 simple scoring matrix for matches and mismatches. The program must have the
@@ -42,8 +68,6 @@ stretch of As in a dna sequence.
 character in a file. Invisible characters should be displayed by their ASCII
 value rather than the character.
 
-## Sequences
-
 47. Write a function `read_fasta(file)` that reads a FASTA file and returns the
 definition line and the sequence.
 
@@ -58,15 +82,11 @@ arguments include the file name, window size, and entropy threshold.
 50. Write a function `read_fastas(file)` that reads sequences from a
 multi-FASTA file, returning one at a time.
 
-## Regex
-
 51. Write a program `queen.py <string>` that solves the NYT Spelling Bee. The
 command line argument is the 7 letters, starting with the central letter.
 
 52. Write a program `prosite.py <pattern>` that allows users to search for
 prosite patterns in a FASTA file.
-
-## Sets and Dictionaries
 
 53. Write a program `birthday3.py <c> <n>` as before, but use a set.
 

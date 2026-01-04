@@ -97,6 +97,21 @@ performs `ls -F` instead?
 
 ## Python
 
+Rules:
+
+- No imports are allowed unless explicitly stated
+
+Variable naming conventions:
+
+- `x` by itself can represent anything, but often a float
+- `i`, `j`, `k`, and loop variables
+- `n` and `m` are integers
+- `a`, `b`, and `c` are numbers (sometimes ints, sometimes floats)
+- `x`, `y`, and `z` are floats and often Cartesian coordinates
+- `x1`, `y1` and `x2`, `y2` are Cartesian pairs
+- `p` and `q` are probabilities
+- `s` is a string, as are `s1` and `s2`
+
 0. Write a program `hello.py` that prints "hello world" to the terminal.
 
 1. Write a program `maths.py` that assigns variables, performs some math

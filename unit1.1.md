@@ -435,5 +435,48 @@ for the original file type. For example, if you compress the C.elegans genome
 with the `gzip` program, it might be in a compressed fasta file called
 `C.elegans.fa.gz`.
 
-------------------------------------------------------------------------------
+## Hierarchical Organization ##
 
+There are many ways to organize files on a computer.
+
+- No organization: find by search
+- Tagged: search by tag
+- Application: found via application
+- Hierarchy: organized in directories (folders)
+
+Some people don't bother organizing their files: some files are in the
+Downloads folder, some are in the Documents folder, and some are in unknown
+locations. How does a person who doesn't organize their files find anything?
+Using the search function of their computer. When looking for a file, they
+might remember some part of the content such as the word 'vitae'. Finding files
+by their contents can be an efficient way to find a specific file or it may
+result in many files to look through. It depends on how you tailor the search.
+
+A sligthly more organized method is to specifically tag files. For example, the
+user might tag all files having to do with MCB185 with `#mcb185`. This allows
+them to retrieve all files with any given tag. The downside of tagging is that
+you have to remember to add tags. Some kinds of metadata don't need user
+interaction, such as the last time the file was edited. Searching for files by
+date is sort of like tagging in that you aren't looking through the file
+itself, but rather metadata associated with a file.
+
+On your phone or tablet, most files are organized by application. You find your
+web pages in your browser application and your notes in your notes application.
+This kind of organization is good for personal things, but not a good way to a
+mixture of files that are part of a project.
+
+Most scientific projects involve multiple files. There may be documents that
+describe what was done, images from a microscope, source code for programs,
+etc. While the files may all be very different from each other, they are all
+related to the same project. Organizing by project involves putting the files
+in the same folder (directory) and possibly creating additional folders
+(subdirectories) for better internal organization. Project-based organization
+is hierarchical.
+
+Your computer's file system is organized hierarchically. Each operating system
+has its own idea of how things should be organized, so Windwos, Mac, and Linux
+are all organized a little differently from each other.
+
+If you have not previously organized your files hierarchically, you will need
+to start doing that. An organized computer environment is a requirement for
+this course.
