@@ -25,7 +25,7 @@ Dragging a file to a trash can is a lot more intuitive than typing commands, so
 why do you have to learn Unix? Because when it comes to doing repetitive tasks,
 it's much easier to automate them in Unix. Imagine you had 100 PDFs in your
 Downloads folder along with a bunch of other files. identifying, clicking and
-dragging each PDF to you Favorites folder is a lot of clicking and dragging.
+dragging each PDF to your Favorites folder is a lot of clicking and dragging.
 However, in Unix, it's something as simple as this:
 
 ```
@@ -37,7 +37,7 @@ mv *.pdf ~/Favorites
 Linux is a lot newer than Unix. It is designed to work just like Unix. The main
 difference is that Unix is a commercial product and Linux is completely free.
 It can be confusing that Linux is branded with different names like Debian,
-Fedora, LinuxLite, Mint, and Ubuntu. They are all similar to each other and all
+Fedora, Majaro, Mint, and Ubuntu. They are all similar to each other and all
 similar to Unix (which also has several different flavors). In addition, there
 are also other Unix-like things that aren't truly Linux or Unix but behave
 similarly. In this course, the terms Unix and Linux are used interchangeably.
@@ -1541,6 +1541,26 @@ The output is as follows:
    1 region
    1 origin_of_replication
 ```
+
+------------------------------------------------------------------------------
+
+Let's get a little more practice using `cut`, `sort`, and `uniq` together. This
+time, you have to do it all yourself. The file `MCB185/data/C.elegans.vcf.gz`
+contains some polymorphism data for C.elegans that looks like the following:
+
+```
+I       3080    gk463204        A       T
+I       3412    gk458418        G       A
+I       3425    gk745166        C       T
+I       3452    gk725203        G       A
+I       3452    gk383820        G       A
+I       3597    gk100006        G       A
+```
+
+The first line shows that there is a polymorphism called `gk463204` on
+Chromosome I at position 3080 whose major alllel is A and minor allele is T.
+Using your newfound skills determine the most and least common polymorphisms
+for the entire genome.
 
 ### grep ###
 

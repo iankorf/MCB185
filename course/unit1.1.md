@@ -292,13 +292,15 @@ pixel-based image file, you only need 3 things:
 3. A list of pixel colors that is width x height in number
 
 A pixel map file is therefore a very simple format. We could even make up our
-own file format. Let's call it Simple Pixmap. The start of the file will be
-something distinguishing so that a program that reads it will not be confused
-about its contents. We'll use `smplpxl` for this header info. Next, we need to
-have some width and height. If we reserve 2 bytes for each, we have a maximum
-image size of 65536 pixels in each dimension. That's pretty big, but we want to
-be more future-proof, so we make it 4 bytes, which is about 4 billion in each
-dimension. The first 16 bytes of the file are specified like this.
+own file format. Let's do that for illustrative purposes. We'll call it Simple
+Pixmap. The start of the file will be something distinguishing so that a
+program that reads it will not be confused about its contents. We'll use
+`smplpxl` for this header info. For comparison, the GIF header is `GIF89a`.
+Next, we need to have some width and height. If we reserve 2 bytes for each,
+which is what GIF does, we have a maximum image size of 65536 pixels in each
+dimension. That's pretty big, but we want to be more future-proof, so we make
+it ours 4 bytes, which is about 4 billion in each dimension. The first 16 bytes
+of the file are specified like this.
 
 - 7 bytes: smplpxl
 - 1 byte: not used, `00` by default
@@ -323,15 +325,13 @@ This is how it is logically constructed (show as hexadecimal).
 	- `00FF00` = green
 	- `0000FF` = blue
 
-
 Here's how it would be stored in a file.
 
 ```
 736d706c70786c000000000300000002FFFFFF808080000000FF000000FF000000FF
 ```
 
-Here, spaces and annotation have been added for readability, but this is not
-what is actually stored in the file.
+Spaces and annotation have been added for readability below.
 
 ```
 736d706c70786c 00 00000003 00000002 FFFFFF 808080 000000 FF0000 00FF00 0000FF
@@ -420,7 +420,6 @@ list of file types used in this course are the following
 - text-based data files
 	- `.csv` comma-separated values
 	- `.tsv` tab-separated values
-	- `.json` Javascript Object Notation
 - text-based bioinformatics data files
 	- `.fa`, `.fasta`, `.faa`, `.fna` are all fasta files
 	- `.gff` general feature format
@@ -440,9 +439,9 @@ with the `gzip` program, it might be in a compressed fasta file called
 There are many ways to organize files on a computer.
 
 - No organization: find by search
-- Tagged: search by tag
-- Application: found via application
-- Hierarchy: organized in directories (folders)
+- Tagged: find by tag
+- Application: find in application
+- Hierarchy: find in directories (folders)
 
 Some people don't bother organizing their files: some files are in the
 Downloads folder, some are in the Documents folder, and some are in unknown
@@ -451,6 +450,8 @@ Using the search function of their computer. When looking for a file, they
 might remember some part of the content such as the word 'vitae'. Finding files
 by their contents can be an efficient way to find a specific file or it may
 result in many files to look through. It depends on how you tailor the search.
+More critically, how does a person who doesn't organize their files share them
+with other people or back them up? Badly.
 
 A sligthly more organized method is to specifically tag files. For example, the
 user might tag all files having to do with MCB185 with `#mcb185`. This allows
@@ -458,12 +459,13 @@ them to retrieve all files with any given tag. The downside of tagging is that
 you have to remember to add tags. Some kinds of metadata don't need user
 interaction, such as the last time the file was edited. Searching for files by
 date is sort of like tagging in that you aren't looking through the file
-itself, but rather metadata associated with a file.
+itself, but rather metadata associated with a file. Tagging has similar
+problems for sharing and backup.
 
 On your phone or tablet, most files are organized by application. You find your
 web pages in your browser application and your notes in your notes application.
-This kind of organization is good for personal things, but not a good way to a
-mixture of files that are part of a project.
+This kind of organization is good for personal things, but not a good way to
+organize a mixture of files that are part of a project.
 
 Most scientific projects involve multiple files. There may be documents that
 describe what was done, images from a microscope, source code for programs,
@@ -474,7 +476,7 @@ in the same folder (directory) and possibly creating additional folders
 is hierarchical.
 
 Your computer's file system is organized hierarchically. Each operating system
-has its own idea of how things should be organized, so Windwos, Mac, and Linux
+has its own idea of how things should be organized, so Windows, Mac, and Linux
 are all organized a little differently from each other.
 
 If you have not previously organized your files hierarchically, you will need
