@@ -315,7 +315,7 @@ has 3 pixels: red, green, blue.
 This is how it is logically constructed (show as hexadecimal).
 
 - Header: `73 6d 70 6c 70 78 6c 00` = `smplpxl` followed by 00
-- Width: `00 00 00 02` = 4-byte integer meaning 2
+- Width: `00 00 00 03` = 4-byte integer meaning 3
 - Height: `00 00 00 02`= 4-byte integer meaning 2
 - Pixels:
 	- `FFFFFF` = white
