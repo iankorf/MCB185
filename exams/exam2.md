@@ -5,32 +5,7 @@ Exam #2 Questions
 - Some exam questions will be variations of those below
 - Some exam questions may be completely new
 
-Rules:
-
-- No imports are allowed unless explicitly stated
-
-Variable naming conventions:
-
-- `x` by itself can represent anything, but often a float
-- `i`, `j`, `k`, and loop variables
-- `n` and `m` are integers
-- `a`, `b`, and `c` are numbers (sometimes ints, sometimes floats)
-- `x`, `y`, and `z` are floats and often Cartesian coordinates
-- `x1`, `y1` and `x2`, `y2` are Cartesian pairs
-- `p` and `q` are probabilities
-- `s` is a string, as are `s1` and `s2`
-- `c` by itself is a character (e.g. `for c in s`)
-- `strings` is a list of strings as are `strings1` and `strings2`
-- `X` is a list of numbers, as are `X1` and `X2`
-- `P` and `Q` are probability distributions (histograms)
-- `nt` is a character representing a nucleotide
-- `dna` is a string of nucleotide symbols
-- `aa` is a character representing an amino acid
-- `pro` is a string of amino acids
-- `seq` is a string of nucleotides or amino acids
-- `seqs` is a list of sequences
-- `file` is a named file path
-- `fp` is a file pointer
+Rules: No imports are allowed unless explicitly stated
 
 21. Write a function `gc_comp(dna)` that returns the GC composition of a
 nucleotide sequence. Use the `input()` function  to ask the user for a sequence

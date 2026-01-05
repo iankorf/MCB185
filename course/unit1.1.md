@@ -145,11 +145,11 @@ return key inserts two characters, the carriage return (0x0D) followed by
 linefeed (0x0A).
 
 | Dec | Hex | Meaning
-|:---:|:---:|:---------
-|   9 |  09 | tab
-|  10 |  0A | linefeed (LF)
-|  13 |  0D | carriage return (CR)
-|  32 |  20 | space
+|:---:|:----:|:---------
+|   9 | `09` | tab
+|  10 | `0A` | linefeed (LF)
+|  13 | `0D` | carriage return (CR)
+|  32 | `20` | space
 
 A plain text file is simply a file of ASCII values. For example, here are
 several ASCII values. There are spaces between them below so that you can see

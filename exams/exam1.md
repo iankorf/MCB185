@@ -51,7 +51,7 @@ a computer.
 
 3. Define "argument" as it applies to Unix commands.
 
-4. What is your favorite editor program?
+4. What is a "flag?"
 
 5. You type the commands below. What is the result?
 
@@ -74,7 +74,7 @@ pwd
 
 8. What does `git push` do?
 
-9. What does ^C mean?
+9. What does ^C mean and what does it do?
 
 10. What programs can you use to view a text file?
 
@@ -97,20 +97,7 @@ performs `ls -F` instead?
 
 ## Python
 
-Rules:
-
-- No imports are allowed unless explicitly stated
-
-Variable naming conventions:
-
-- `x` by itself can represent anything, but often a float
-- `i`, `j`, `k`, and loop variables
-- `n` and `m` are integers
-- `a`, `b`, and `c` are numbers (sometimes ints, sometimes floats)
-- `x`, `y`, and `z` are floats and often Cartesian coordinates
-- `x1`, `y1` and `x2`, `y2` are Cartesian pairs
-- `p` and `q` are probabilities
-- `s` is a string, as are `s1` and `s2`
+Rules: No imports are allowed unless explicitly stated
 
 0. Write a program `hello.py` that prints "hello world" to the terminal.
 

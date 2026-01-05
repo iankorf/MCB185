@@ -750,22 +750,6 @@ python3 21entropy.py 0.5 -1
 Now that you understand how the program works, can you delete it and re-write
 it again? You might have to write it from scratch during your assessment...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ------------------------------------------------------------------------------
 
 ## Pairwise Comparison ##
