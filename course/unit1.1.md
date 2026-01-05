@@ -482,3 +482,17 @@ are all organized a little differently from each other.
 If you have not previously organized your files hierarchically, you will need
 to start doing that. An organized computer environment is a requirement for
 this course.
+
+Hierarchical file organization is just like a structured outline. Here is the
+organization of some of the folders (directories) we will be using in the
+course.
+
+- Home
+	- Code
+		- MCB185
+			- course
+			- data
+			- exams
+			- ref
+			- src
+		- mcb185_homework
