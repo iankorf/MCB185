@@ -16,8 +16,8 @@ DNA sequence. For oligos <= 13 nt, Tm = (A+T) x 2 + (G+C) x 4. For longer
 oligos, Tm = 64.9 + 41 x (G+C -16.4) / (A+T+G+C). Use the `sys.argv` as the
 source of the DNA sequence.
 
-23. Write a program `crazycase.py <file>` that converts a file into aLtErNaTiNg
-cAsE. Use `sys.argv` to get the file name.
+23. Write a function `crazycase()` that converts a a string into aLtErNaTiNg
+cAsE. Use `sys.argv` to get the strings.
 
 24. Write a function `anti(nt)` that returns the reverse-complement of a DNA
 sequence.
