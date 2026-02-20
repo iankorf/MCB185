@@ -1,9 +1,11 @@
 Unit 3: Practical Programming
 =============================
 
-30demo
+30demo as usual...
 
 ## Files ##
+
+(this should have been in the last unit)
 
 Most data is stored in files. To read file data, you must open the file, stream
 data from it, and close it when done. Here's the canonical structure for
